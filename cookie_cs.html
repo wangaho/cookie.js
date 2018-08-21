@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>cookie测试</title>
+		<script type="text/javascript" src="cookie.min.js" ></script>
+	</head>
+	<body>
+	</body>
+</html>
+
+<script>
+	console.log(cookie.v);
+	//cookie('test2', "这是测试2333",{expire:10});
+	cookie('test3', "abcdefg");
+	console.log( /*cookie(null) ,*/cookie() );
+</script>
